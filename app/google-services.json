@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "556205736292",
+    "project_id": "chargemap-c9a8d",
+    "storage_bucket": "chargemap-c9a8d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:556205736292:android:02f88521c5471b5381ba71",
+        "android_client_info": {
+          "package_name": "com.example.chargemap"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeUSMdvR42ZmHruzURLXt4nbOSf75Ps3w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
