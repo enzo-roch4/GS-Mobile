@@ -26,7 +26,7 @@
         android:id="@+id/BemVindo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="33dp"
+        android:layout_marginEnd="32dp"
         android:layout_marginBottom="36dp"
         android:text="Bem-Vindo!"
         android:textColor="#000000"
@@ -37,9 +37,9 @@
 
     <Button
         android:id="@+id/buttonInicio"
-        android:layout_width="172dp"
+        android:layout_width="175dp"
         android:layout_height="0dp"
-        android:layout_marginBottom="67dp"
+        android:layout_marginBottom="20dp"
         android:backgroundTint="#009688"
         android:text="Iniciar"
         app:layout_constraintBottom_toTopOf="@+id/buttonCadastro"
@@ -49,33 +49,33 @@
 
     <Button
         android:id="@+id/buttonCadastro"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="26dp"
-        android:layout_marginBottom="24dp"
+        android:layout_width="175dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="20dp"
         android:backgroundTint="#009688"
         android:text="Cadastro"
         app:layout_constraintBottom_toTopOf="@+id/buttonLogin"
-        app:layout_constraintEnd_toEndOf="@+id/buttonInicio"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/buttonInicio" />
 
     <Button
         android:id="@+id/buttonLogin"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="107dp"
+        android:layout_width="178dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="138dp"
         android:backgroundTint="#009688"
         android:text="Login"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/buttonCadastro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/buttonCadastro" />
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="63dp"
+        android:layout_marginBottom="107dp"
         app:layout_constraintBottom_toTopOf="@+id/buttonInicio"
         app:layout_constraintEnd_toEndOf="@+id/BemVindo"
         app:layout_constraintTop_toBottomOf="@+id/BemVindo"

@@ -21,8 +21,8 @@ class MapaActivity : AppCompatActivity(), OnMapReadyCallback {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_mapa)
 
-        mapView = findViewById(R.id.Mapa)
-        searchBar = findViewById(R.id.searchBar)
+//        mapView = findViewById(R.id.Mapa)
+        searchBar = findViewById(R.id.editTextTextMultiLine3)
 
 //         Inicializando o MapView
         mapView.onCreate(savedInstanceState)

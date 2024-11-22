@@ -48,7 +48,7 @@ class LoginActivity : AppCompatActivity() {
 
         // Ação do botão "Voltar"
         backButton.setOnClickListener {
-            finish() 
+            finish()
         }
     }
 }
