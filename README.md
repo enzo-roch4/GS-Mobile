@@ -1,5 +1,13 @@
 # ChargeMap - Aplicativo de Planejamento para Carros Elétricos
 
+## Video Apresntação
+https://youtu.be/C5Xt3SvbXhY
+
+## Integrantes
+RM: 553227 - Herbert Santos de Sousa
+RM: 553698 - João Pedro Pereira
+RM: 553643 - Enzo Franco Rocha
+
 ChargeMap é um aplicativo desenvolvido para auxiliar motoristas de veículos elétricos na identificação de pontos de recarga ao longo de suas viagens. Utilizando tecnologias de geolocalização e visão computacional, o aplicativo será capaz de exibir pontos de carga em um mapa interativo, oferecendo uma solução prática e acessível para o planejamento de viagens com carros elétricos.
 
 ## Funcionalidades do Aplicativo
